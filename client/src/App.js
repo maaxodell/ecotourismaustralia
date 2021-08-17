@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Ecotourism Australia, coming soon.
+          Ecotourism Australia, coming soon!
         </p>
       </header>
     </div>
