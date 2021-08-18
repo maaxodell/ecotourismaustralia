@@ -13,8 +13,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "test": "nodemon index.js"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
