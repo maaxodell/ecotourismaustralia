@@ -258,7 +258,7 @@ h2 {
     border: 1px solid transparent;
     padding: 0px;
     margin-top: 0px;
-    height: 250px;
+    height: 500px;
     width: 100%;
 }
 
@@ -266,7 +266,7 @@ h2 {
     position: relative;
     top: 50%;
     left: 0;
-    font-size: 55px;
+    font-size: 50px;
 }
 
 #headntitle {
@@ -316,19 +316,19 @@ h2 {
 .bubT1 {
     position: relative;
     top: 100px;
-    lign: center;
+    align-content: center;
 }
 
 .bubT2 {
     position: relative;
     top: 100px;
-    align: center;
+    align-content: center;
 }
 
 .bubT3 {
     position: relative;
     top: 95px;
-    align: center;
+    align-content: center;
 }
 
 #footer {
