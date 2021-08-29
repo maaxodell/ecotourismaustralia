@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+* {
+  box-sizing: border-box;
+}
+.topnav {
+  overflow: hidden;
+  
+}
+h2 {
+  color:white;
+  font-style:italic;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.topnav a:hover {
+  background-color: #84ad40;
+  color: #2169b3;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+#topbackground {
+  border: 1px solid transparent;
+  padding:0px;
+  margin-top: 0px;
+  height: 250px;
+  width:100%;
+  
+
+}
+#bottomtitle {
+  position: relative;
+  top: 50%;
+  left:0;
+  font-size: 55px;
+}
+#headntitle {
+  background-image: url('bg.jpg');
+  background-position:90%80%;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 500px; 
+  
+}
+.bubble {
+  position: relative;
+  width :100%;
+  height:100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.imghome{
+  border-radius: 50%;
+  position:relative;
+  top:100px;
+  left: 150px;
+  align :center;
+  
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  border-radius:20%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bubT1 {
+	position: relative;
+	top: 95px;
+	left:170px;
+}
+.bubT2 {
+	position: relative;
+	top: 95px;
+	left:180px;
+}
+.bubT3 {
+	position: relative;
+	top: 95px;
+	left:165px;
+}
+#footer {
+	position: sticky;
+	left: 0;
+	bottom: 0;
+	width: 100%;	
+	padding-left: 10
+}
+#footerul {
+	left:10%
+	width: 100%;
+	display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-around;
+	padding-left:10%;
+	padding-right:10%;
+}
+.footerlist {
+	
+	list-style-type: none;
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+	padding-right:8%;
+	border-right: 2px dotted grey
+}
+
+.footerlistend {
+	list-style-type: none;
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+	
+}
+</style>
+</head>
+<body>
+<div id="headntitle">
+	<div class="topnav">
+	  <a href="#contact">Contact Us</a>
+	  <a href="#news">News</a>
+	  <a href="#contact">Membership</a>
+	  <a href="#contact">Certification</a>
+	  <a href="#about">About Us </a>
+	</div>
+
+	<div id = "topbackground" style="padding-left:16px">
+	  <h2 id= "bottomtitle" style = "color = white">Ecotourism Australia</h2>
+	  
+	</div>
+</div>
+<div class="row">
+	
+	<div id = "quizdiv">
+		<h2 style ="color:black;position: relative; text-align:center;"> Why Get Certified?</h2>
+		<h3> This is some description about something that i have no clue about and will need a div around it so that the space is allotted and this will also allow for the use of the div and borders to
+		decorate the area behind for a more sheek look.</h3>
+	</div>
+	<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="bubble1.jpg">
+		  <img src="home1.jpg" alt="Cinque Terre" width="300" height="200">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	</div>
+	</div>
+
+
+	<div class="responsive">
+	  <div class="gallery">
+		<a target="_blank" href="bubble2.jpg">
+		  <img src="home2.jpg" alt="Forest" width="300" height="200">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+		<a target="_blank" href="bubble3.jpg">
+		  <img src="home3.jpg" alt="Northern Lights" width="300" height="200">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+		<a target="_blank" href="bubble4.jpg">
+		  <img src="bubble4.jpg" alt="Mountains" width="300" height="200">
+		</a>
+		<div class="desc">Add a description of the image here</div>
+	  </div>
+	</div>
+
+</div>
+<div id = "footer">
+	<ul id = "footerul">
+		<li class = "footerlist"><a href="#contact">Contact Us</a></li>
+		<li class = "footerlist"><a href="#news">News</a></li>
+		<li class = "footerlist"><a href="#contact">Membership</a></li>
+		<li class = "footerlist"><a href="#contact">Certification</a></li>
+		<li class = "footerlistend"><a href="#about">About Us </a></li>
+	</ul>
+</div>
+</body>
+</html>
