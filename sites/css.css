@@ -1,0 +1,236 @@
+/* Nav bar */
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+nav li {
+	list-style: none;
+	display: block;
+}
+
+nav a {
+	display: block;
+	color: black;
+	text-decoration: none;
+  font-family: Fira Sans Condensed;
+}
+
+nav a:hover{
+  color: #d8d266
+}
+
+nav > ul {
+	display: flex;
+}
+
+nav > ul > li {
+    width: 33%;
+  	position: relative;
+}
+
+.logo{
+  display:inline-block;;
+}
+
+body {
+  background-color: #f9f9fd;
+  margin: 0px;
+}
+
+.loginbody {
+  background-image: url("assets/img/loginimg1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 300px;
+  font-size: 30px;
+  font-family: Hunter;
+  margin-right: 10%
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Hunter;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color:#6b84b3;
+}
+
+.aboutimg {
+  height: 400px;
+  width: 400px;
+  float: left;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: -100px;
+}
+
+.abouttext {
+  float: right;
+  display: block;
+  margin-left: 550px;
+  margin-right: 20%;
+  margin-top: -150px;
+  font-family: Fira Sans Condensed;
+}
+
+.whyworkwithus {
+  height: 200px;
+  width: 100%;
+  margin-top: 350px;
+  padding:50px 100px;
+  background-color: #dedfc8; /*Eco tana */
+  font-family: Fira Sans Condensed;
+}
+
+.vision {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #f9f9fd; /*Eco ghost */
+  font-family: Fira Sans Condensed;
+}
+
+.history {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #dedfc8;
+  font-family: Fira Sans Condensed;
+}
+
+.team {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #f9f9fd; /*Eco ghost */
+  font-family: Fira Sans Condensed;
+}
+
+.jobs {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #dedfc8; /*Eco tana */
+  font-family: Fira Sans Condensed;
+}
+
+.walkthetalk {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #f9f9fd; /*Eco ghost */
+  font-family: Fira Sans Condensed;
+}
+
+.whatwedotext {
+  float: right;
+  display: block;
+  margin-left: 550px;
+  margin-right: 20%;
+  margin-top: -250px;
+  font-family: Fira Sans Condensed;
+}
+
+.loginbox {
+  width: 300px;
+  height:400px;
+  margin: auto;
+  background-color: #f9f9fd;
+  opacity: 0.9;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  font-family: Fira Sans Condensed;
+  padding:20px;
+  text-align: center;
+}
+
+.searchbox {
+  width: 700px;
+  height:300px;
+  margin: auto;
+  background-color: #f9f9fd;
+  opacity: 0.9;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  font-family: Fira Sans Condensed;
+  padding:20px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id=search] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #dedfc8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 30%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #c6d0d8;
+}
+
+input[type=submit]:active {
+  background-color: #a4b4d0;
+}
+
+footer {
+  padding: 10px 40px;
+  font-family: Fira Sans Condensed;
+  background-color: white;
+  opacity: 0.9;
+}
