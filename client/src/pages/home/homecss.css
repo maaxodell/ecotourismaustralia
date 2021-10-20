@@ -1,0 +1,395 @@
+/* Background */
+
+/* Nav bar */
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+nav li {
+	list-style: none;
+	display: block;
+}
+
+nav a {
+	display: block;
+	color: black;
+	text-decoration: none;
+  font-family: Fira Sans Condensed;
+}
+
+nav a:hover{
+  color: #d8d266
+}
+
+nav > ul {
+	display: flex;
+}
+
+nav > ul > li {
+    width: 33%;
+  	position: relative;
+}
+
+.logo{
+  display:inline-block;;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+h1 {
+  margin-top:150px;
+  text-align: center;
+  color: #f9f9fd;
+  font-size: 80px;
+  font-family: Hunter;
+}
+
+.box1 {
+  margin-left: 50px;
+  margin-top:50px;
+  height: 420px;
+  width: 340px;
+  background-color: white;
+  opacity: 0.7;
+  float:left;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: Fira Sans Condensed;
+}
+
+.box2 {
+  margin-top:50px;
+  height: 420px;
+  width: 340px;
+  background-color: white;
+  opacity: 0.7;
+  float:left;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: Fira Sans Condensed;
+}
+
+.box3 {
+  margin-top:50px;
+  height: 420px;
+  width: 340px;
+  background-color: white;
+  opacity: 0.7;
+  float:left;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: Fira Sans Condensed;
+}
+
+.box1 a {
+  margin-top: 50px;
+  font-size: 20px;
+	display: block;
+	color: black;
+	text-decoration: none;
+  font-family: Fira Sans Condensed;
+}
+
+.box2 a {
+  margin-top: 50px;
+  font-size: 20px;
+	display: block;
+	color: black;
+	text-decoration: none;
+  font-family: Fira Sans Condensed;
+}
+
+.box3 a {
+  margin-top: 50px;
+  font-size: 20px;
+	display: block;
+	color: black;
+	text-decoration: none;
+  font-family: Fira Sans Condensed;
+}
+
+.box1 a:hover {
+  color: #d8d266;
+}
+
+.box1 a:active {
+  color: #a2ac38;
+}
+
+.box2 a:hover {
+  color: #d8d266;
+}
+
+.box3 a:hover {
+  color: #d8d266;
+}
+
+h2 {
+  margin-top:70px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Hunter;
+}
+
+.landingfooter {
+  margin-top:650px;
+  height:80px;
+  width:100%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  font-family: Fira Sans Condensed;
+}
+
+/*Home page*/
+
+.homeh1 {
+  margin-top:300px;
+  text-align: center;
+  color: #f9f9fd;
+  font-size: 80px;
+  font-family: Hunter;
+}
+
+
+.bodycontent {
+  width: 100%;
+  height: 2000px;
+  margin-top: 250px;
+  background-color: #f9f9fd;
+}
+
+.circle1 {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 50%;
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  background-image: url("assets/img/homeimg1.jpg");
+}
+
+.circle2 {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 50%;
+  float: left;
+  margin-top: 100px;
+  margin-left: 150px;
+  background-image: url("assets/img/homeimg2.jpg");
+}
+
+.circle3 {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 50%;
+  float: left;
+  margin-top: 100px;
+  margin-left: 150px;
+  background-image: url("assets/img/homeimg3.jpg");
+}
+
+.rh {
+  font-size: 30px;
+  font-family: Hunter;
+  margin-left: 160px;
+  display: inline-block;
+}
+
+.d {
+  font-size: 30px;
+  font-family: Hunter;
+  margin-left: 280px;
+  display: inline-block;
+}
+
+.to {
+  font-size: 30px;
+  font-family: Hunter;
+  margin-left: 260px;
+  display: inline-block;
+}
+
+.whyimg {
+  margin-top: 200px;
+  height: 550px;
+  width: 400px;
+  float: left;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.heading{
+  margin-top: 400px;
+  font-size: 30px;
+  font-family: Hunter;
+  margin-left: 50px;
+}
+
+.whytext {
+  float: left;
+  display: block;
+  margin-left: 550px;
+  margin-right: 20%;
+  margin-top: -300px;
+  font-family: Fira Sans Condensed;
+}
+
+.whytext a {
+  text-decoration: none;
+  color: black;
+}
+
+.whytext a:hover {
+  color: #6b84b3;
+}
+
+.latestimg {
+  margin-top: 100px;
+  height: 550px;
+  width: 400px;
+  float: right;
+  margin-right: 100px;
+}
+
+.latestheading {
+  margin-top: 600px;
+  font-size: 30px;
+  font-family: Hunter;
+  margin-left: 100px;
+}
+
+.latesttext {
+  float: left;
+  display: block;
+  margin-left: 100px;
+  margin-right: 50%;
+  margin-top: -300px;
+  font-family: Fira Sans Condensed;
+}
+
+.latesttext a {
+  text-decoration: none;
+  color: black;
+}
+
+.latesttext a:hover {
+  color: #6b84b3;
+}
+
+h3 {
+  font-family: Hunter;
+  font-size: 30px;
+}
+
+.signup {
+  background-color: #f9f9fd;
+  height: 320px;
+  width: 850px;
+  margin: 50px auto 50px;
+  font-family: Fira Sans Condensed;
+  padding:10px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id=email] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #dedfc8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #c6d0d8;
+}
+
+input[type=submit]:active {
+  background-color: #a4b4d0;
+}
+
+footer {
+  height:80px;
+  width:100%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  font-family: Fira Sans Condensed;
+}
+
+/*SUBMENU*/
+
+
+/* nav ul.submenu {
+	background: #FFFEE9;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 10px 0;
+	display: none;
+  text-align: center;
+}
+
+nav ul.submenu > li > a {
+	line-height: 40px;
+	padding: 0 20px;
+}
+
+nav ul.submenu > li > a:hover {
+	background: #354C6F;
+    color: white;
+}
+
+nav > ul > li:hover > ul.submenu {
+	display: block;
+} */

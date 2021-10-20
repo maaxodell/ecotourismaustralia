@@ -1,63 +1,65 @@
 import React from 'react';
 
 // styles and assets
-import './style.css';
-import bubble1 from "./bubble1.jpg";
-import bubble2 from "./bubble2.jpg";
-import bubble3 from "./bubble3.jpg";
-import Logo from "../../assets/logos/taglineLogoWhite.png";
+//import "./homecss.css";
+import logo from "../../assets/images/logo.png"
 
 export default function Home() {
     return (
         <body>
-            <div id="headntitle">
-                <div id="topbackground">
-                    <img src={Logo} style={{width:"1000px", paddingTop:"80px"}} alt="Ecotourism Australia Logo"/>
-                </div>
-            </div>
-            <div style={{ width: "100%" }}>
-                <h2 style={{ textAlign: "center", width: "100%" }}>Are You a...</h2>
-            </div>
-
-            <div className="row">
-                <div className="column">
-                    <div className="bubble">
-                        <a target="_blank"
-                            href="file:///C:/Users/BLAKE/OneDrive/Documents/QUT%20course/2021/capstone/business1.html">
-                            <img src={bubble1} className="imghome" alt="Cinque Terre" width="200" height="200" />
-                        </a>
-                        <h2 style={{ color: "black" }} className="bubT1">Business</h2>
-                    </div>
-                </div>
-                <div className="column">
-                    <div className="bubble">
-                        <a target="_blank" href="bubble2.jpg">
-                            <img src={bubble2} className="imghome" alt="Cinque Terre" width="200" height="200" />
-                        </a>
-                        <h2 style={{ color: "black" }} className="bubT2">Destination</h2>
-                    </div>
-                </div>
-                <div className="column">
-                    <div className="bubble">
-                        <a target="_blank"
-                            href="file:///C:/Users/BLAKE/OneDrive/Documents/QUT%20course/2021/capstone/guidemain.html">
-                            <img src={bubble3} className="imghome" alt="Cinque Terre" width="200" height="200" />
-                        </a>
-                        <h2 style={{ color: "black" }} className="bubT3">Traveller</h2>
-
-                    </div>
-                </div>
-
-            </div>
-            <div id="footer">
-                <ul id="footerul">
-                    <li className="footerlist"><a href="#contact">Contact Us</a></li>
-                    <li className="footerlist"><a href="#news">News</a></li>
-                    <li className="footerlist"><a href="#contact">Membership</a></li>
-                    <li className="footerlist"><a href="#contact">Certification</a></li>
-                    <li className="footerlistend"><a href="#about">About Us </a></li>
+            <nav>
+                <ul>
+                    <li>
+                        <img className="logo" src={logo} alt="logo" />
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="whatwedo.html">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="ourcommunity.html">Our Community</a>
+                    </li>
+                    <li>
+                        <a href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Member Login</a>
+                    </li>
+                    <li>
+                        <a href="search.html">Search</a>
+                    </li>
                 </ul>
+            </nav>
+
+            <h1>Are you a...</h1>
+            <div className="box1">
+                <h2>Destination</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat.</p>
+                <a href="home.html">Go to site...</a>
             </div>
+            <div className="box2">
+                <h2>Business</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat.</p>
+                <a href="home.html">Go to site...</a>
+            </div>
+            <div className="box3">
+                <h2>Traveller</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat.</p>
+                <a href="search.html">Go to site...</a>
+            </div>
+
+            <footer className="landingfooter">
+                <p> Ecotourism Australia <br /> Last Updated September 2021</p>
+            </footer>
+
         </body>
     )
 }
