@@ -90,10 +90,18 @@ html, body {
   display:inline-block;;
 }
 
+@font-face {
+   font-family: Hunter;
+   src: url('assets/fonts/Hunter.otf');
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap);
+
 
 body {
   background-color: #f9f9fd;
   margin: 0px;
+  font-family: Fira Sans Condensed;
 }
 
 .loginbody {
