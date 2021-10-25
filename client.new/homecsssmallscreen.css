@@ -93,11 +93,9 @@ html, body {
 @font-face {
    font-family: Hunter;
    src: url('assets/fonts/Hunter.otf');
+   font-family: Fira Sans Condensed;
+   src: url('assets/fonts/fira-sans-condensed/FiraSansCondensed-Light.otf');
 }
-
-@import url(https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap);
-
-
 
 body {
   background-image: url('assets/img/bg.jpg');
