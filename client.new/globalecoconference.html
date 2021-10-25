@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Global Eco Conference | Ecotourism Australia</title>
+  <link rel="stylesheet" media="screen and (min-width:1200px)" href="css.css">
+  <link rel="stylesheet" media="screen and (max-width:1199px)" href="csssmallscreen.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Ecotourism Australia">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+
+    <a href="home.html">Home</a>
+
+    <button class="dropdown-btn">About</button>
+      <div class="dropdown-container">
+        <a href="whyworkwithus.html">Why Work With Us?</a>
+        <a href="vision.html">Vision, Mission & Purpose</a>
+        <a href="history.html">History</a>
+        <a href="team.html">Team & Board</a>
+        <a href="jobs.html">Jobs & Career Opertunities</a>
+        <a href="walkthetalk.html">Walk the Talk</a>
+      </div>
+
+      <button class="dropdown-btn">What We Do</button>
+        <div class="dropdown-container">
+          <a href="certprograms.html">Certification Programs</a>
+          <a href="globalecoconference.html">Global Eco Conference</a>
+          <a href="advocacy.html">Advocacy</a>
+          <a href="industryresources.html">Industry Resources</a>
+          <a href="onsultancy.html">Consultancy</a>
+        </div>
+
+        <button class="dropdown-btn">Our Community</button>
+          <div class="dropdown-container">
+            <a href="wepartnerwith.html">We partner with...</a>
+            <a href="ourcertifiedmembers.html">Our Certified Members</a>
+            <a href="ourpartners.html">Our Partners</a>
+            <a href="oursupporters.html">Our Supporters</a>
+          </div>
+
+    <a href="news.html">News</a>
+    <a href="login.html">Member Login</a>
+    <a href="search.html">Search</a>
+    </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+  <img src="assets/img/globalecoconference.png" alt="Logo" class="aboutimg">
+  <h1>Global Eco Conference</h1>
+  <p class="whatwedotext">Ecotourism Australia's main event</p>
+
+  <div class="whyworkwithus">
+    <h2>THE WORLD'S LONGEST RUNNING ECOTOURISM CONFERENCE</h2>
+      <p>Ecotourism Australia is proud to host the Global Eco Conference, the world's longest
+        running ecotourism conference, every year. This event, which has been running now for a
+        quarter of a century, brings together the world’s leading speakers on ecotourism,
+        sustainability and responsible tourism, as well as tourism operators, protected
+        area managers, tourism organisations, Indigenous bodies and researchers to discuss
+        ecotourism, sustainability and best practice initiatives. <br>
+        Ecotourism Australia’s members have always been at the cutting edge of ecotourism development
+        at a global level and Global Eco is a clearing house of ideas, innovation and best practice.
+        The conference creates opportunities for business-to-business and business-to-government
+        collaboration, focused on practical and applied ecotourism. It is also content rich: Every
+        year, keynote speakers drive discussions across the key thematic areas and specialised
+        masterclasses and workshops enable delegates to maximise their investment. Delegate
+        interaction is encouraged, and relationship building is enabled through exceptional
+        networking events and technical tours.<br><br>
+        <h3>Member benefits</h3>
+
+  Certified operators receive a 25% discount on registrations for the Annual Global Eco Conference.<br>
+
+  <h3>Reasons to attend</h3>
+
+  Learn about international and national best practice ecotourism
+  Be inspired by expert keynote speakers from Australia and around the world
+  Hear about leading practices in eco- and sustainable tourism, conservation, protected area management, planning and development, marketing, Indigenous and community engagement, architecture and design, philanthropy, sustainable destination management and climate action
+  Network with government, practitioners, operators and academics
+  <br><br>“Global Eco Asia-Pacific Conference has always sent a high benchmark with great contents. It is getting better each year and very innovative even as the industry is being disrupted by global trends whether it is environment or technology.”
+
+  – Albert Teo, Founder Borneo Ecotours, Malaysia</p>
+  </div>
+
+  <footer class="landingfooter">
+    <p> Eco Tourism Australia &copy;</p>
+    <a href="tsandcs.html">T's & C's&nbsp</a>
+    <a href="privacypolicy.html">Privacy Policy&nbsp</a>
+    <a href="media.html">Media & Press&nbsp</a>
+    <a href="socialmedia.html">Social Media&nbsp</a>
+    <a href="contact.html">Contact Us&nbsp</a>
+  </footer>
+
+</body>
+
+</html>

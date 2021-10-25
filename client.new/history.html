@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>History | Ecotourism Australia</title>
+  <link rel="stylesheet" media="screen and (min-width:1200px)" href="css.css">
+  <link rel="stylesheet" media="screen and (max-width:1199px)" href="csssmallscreen.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Ecotourism Australia">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+
+    <a href="home.html">Home</a>
+
+    <button class="dropdown-btn">About</button>
+      <div class="dropdown-container">
+        <a href="whyworkwithus.html">Why Work With Us?</a>
+        <a href="vision.html">Vision, Mission & Purpose</a>
+        <a href="history.html">History</a>
+        <a href="team.html">Team & Board</a>
+        <a href="jobs.html">Jobs & Career Opertunities</a>
+        <a href="walkthetalk.html">Walk the Talk</a>
+      </div>
+
+      <button class="dropdown-btn">What We Do</button>
+        <div class="dropdown-container">
+          <a href="certprograms.html">Certification Programs</a>
+          <a href="globalecoconference.html">Global Eco Conference</a>
+          <a href="advocacy.html">Advocacy</a>
+          <a href="industryresources.html">Industry Resources</a>
+          <a href="onsultancy.html">Consultancy</a>
+        </div>
+
+        <button class="dropdown-btn">Our Community</button>
+          <div class="dropdown-container">
+            <a href="wepartnerwith.html">We partner with...</a>
+            <a href="ourcertifiedmembers.html">Our Certified Members</a>
+            <a href="ourpartners.html">Our Partners</a>
+            <a href="oursupporters.html">Our Supporters</a>
+          </div>
+
+    <a href="news.html">News</a>
+    <a href="login.html">Member Login</a>
+    <a href="search.html">Search</a>
+    </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+  <img src="assets/img/destinations.jpeg" alt="Image" class="aboutimg">
+  <h1>History</h1>
+  <p class="whatwedotext">"Over the past twenty years Ecotourism Australia has grown from a
+    small group of environmental tourism enthusiasts, to the world's most respected
+    industry organisation in ecotourism. This has come about through the hard work of
+    a range of people over a long period during which time we have established the
+    benchmarks for the industry globally."
+
+<br><br><strong>Professor Ross Dowling - Ecotourism Australia Limited Founding Member</strong></p>
+
+  <div class="whyworkwithus">
+    <h2>A Brief History of Ecotourism Australia</h2>
+      <p>Ecotourism Australia was formed in 1991 as the Ecotourism Association
+        of the Indo Pacific Region. The organisation was renamed the Ecotourism
+        Association of Australia in 1992 and the world's first National
+        Ecotourism Accreditation Program (NEAP) was launched in 1996. In
+        2002, the International Year of Ecotourism, the organisation was
+        renamed Ecotourism Australia Limited (EA).<br><br>
+
+        EA was established to promote ecotourism throughout Australia and its immediate
+        region by creating partnerships, developing and encouraging quality ecotourism
+        experiences and providing the industry with a clear voice. The organisation's
+         main product development tools were the creation of certification programs
+         that defined ecotourism and the delivery of the Annual Ecotourism Australia
+         Conference (later renamed the Global Eco Conference).<br><br>
+
+        Since the launch of the NEAP, EA has grown and evolved to offer policy
+        commitments and lobbying, industry and academic representation on the EA
+        board, and a website platform to promote operators, membership networking
+        and international travel trade awareness.<br><br>
+
+        EA now delivers four certification programs to the tourism industry:<br>
+
+        ECO certification (replaced NEAP in 2003)<br>
+        Climate Action (launched in 2008)<br>
+        Respecting Our Culture (transferred from Aboriginal Tourism Australia in 2008)<br>
+        EcoGuide certification (launched in 2000)<br>
+        ECO Destination Certification (launched in 2018)<br>
+        EA won the Conservation Award at the World Tourism and Travel Council
+        Tourism for Tomorrow Awards in 2008.<br><br>
+
+        In 2011, on the organisation's 20th birthday, EA awarded 56 operators Green
+        Travel Leader status for their commitment to greening the tourism industry by
+        maintaining ECO certification for 10 years or more. Since this time, EA has r
+        ecognised more operators as Green Travel Leaders and the certification programs
+        have continued to gain national and worldwide recognition through the Global
+        Sustainable Tourism Council.<br><br>
+
+        In 2013/14 the combined annual turnover of all EA certified tour operators
+        exceeded $1billion, demonstrating how ecotourism is no longer a niche but has
+        become the mainstream.<br><br></p>
+  </div>
+
+  <footer class="landingfooter">
+    <p> Eco Tourism Australia &copy;</p>
+    <a href="tsandcs.html">T's & C's&nbsp</a>
+    <a href="privacypolicy.html">Privacy Policy&nbsp</a>
+    <a href="media.html">Media & Press&nbsp</a>
+    <a href="socialmedia.html">Social Media&nbsp</a>
+    <a href="contact.html">Contact Us&nbsp</a>
+  </footer>
+
+</body>
+
+</html>

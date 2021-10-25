@@ -10,7 +10,7 @@ function LoginInputs(props) {
 
         // insert Ellen's login page
 
-        {/* <div className="login-grid">
+        <div className="login-grid">
             <input className="login1"
                 aria-labelledby="loginbutton"
                 name="email"
@@ -19,7 +19,7 @@ function LoginInputs(props) {
                 type="text"
                 value={email}
                 onChange={event => {
-                    const {value} = event.target;
+                    const { value } = event.target;
                     setEmail(value);
                 }}
             />
@@ -32,7 +32,7 @@ function LoginInputs(props) {
                 type="password"
                 value={password}
                 onChange={event => {
-                    const {value} = event.target;
+                    const { value } = event.target;
                     setPassword(value);
                 }}
             />
@@ -44,7 +44,7 @@ function LoginInputs(props) {
                 onClick={() => props.onSubmit([email, password])}
             >Submit
             </button>
-        </div> */}
+        </div>
 
     )
 

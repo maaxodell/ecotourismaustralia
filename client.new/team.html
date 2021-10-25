@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Team & Board | Ecotourism Australia</title>
+  <link rel="stylesheet" media="screen and (min-width:1200px)" href="css.css">
+  <link rel="stylesheet" media="screen and (max-width:1199px)" href="csssmallscreen.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Ecotourism Australia">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+
+    <a href="home.html">Home</a>
+
+    <button class="dropdown-btn">About</button>
+      <div class="dropdown-container">
+        <a href="whyworkwithus.html">Why Work With Us?</a>
+        <a href="vision.html">Vision, Mission & Purpose</a>
+        <a href="history.html">History</a>
+        <a href="team.html">Team & Board</a>
+        <a href="jobs.html">Jobs & Career Opertunities</a>
+        <a href="walkthetalk.html">Walk the Talk</a>
+      </div>
+
+      <button class="dropdown-btn">What We Do</button>
+        <div class="dropdown-container">
+          <a href="certprograms.html">Certification Programs</a>
+          <a href="globalecoconference.html">Global Eco Conference</a>
+          <a href="advocacy.html">Advocacy</a>
+          <a href="industryresources.html">Industry Resources</a>
+          <a href="onsultancy.html">Consultancy</a>
+        </div>
+
+        <button class="dropdown-btn">Our Community</button>
+          <div class="dropdown-container">
+            <a href="wepartnerwith.html">We partner with...</a>
+            <a href="ourcertifiedmembers.html">Our Certified Members</a>
+            <a href="ourpartners.html">Our Partners</a>
+            <a href="oursupporters.html">Our Supporters</a>
+          </div>
+
+    <a href="news.html">News</a>
+    <a href="login.html">Member Login</a>
+    <a href="search.html">Search</a>
+    </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+  <img src="assets/img/destinations.jpeg" alt="Image" class="aboutimg">
+  <h1>Team & Board</h1>
+  <p class="whatwedotext">Ecotourism Australia is governed by a board of directors
+    located around Australia. Meet the team behind the scenes.</p>
+
+  <div class="whyworkwithus">
+    <h2>Our Team</h2>
+    <h3>Rod Hillman - Chief Executive</h3>
+      <p>Rod has a life-long involvement in tourism, protected areas management and
+        education with lengthy stints as a tour operator, National Park Manager
+        and teacher all over Australia, and many years overseas. He has been involved
+        with Ecotourism Australia since 2001 when he was elected as a Board member
+        (then Deputy Chair) for six years where he created the ‘Tourism in Protected
+        Areas Forum’ (TAPAF) and managed the Annual Conference program. After four
+        years in Papua New Guinea, managing the Kokoda Track, he returned to
+        Ecotourism Australia as its Chief Executive.</p>
+      <h3>Fay Dawson - Accounts Manager</h3>
+      <p>Fay is the Accounts Manager for Ecotourism Australia and has worked in accounts
+        for the past 10 years. She very much enjoys being part of the team, and will be
+        only too happy to assist you should you have any queries with regards to your invoice.</p>
+      <h3>Nadine Schramm - Certification Manager</h3>
+      <p>Nadine first joined Ecotourism Australia in 2018 as Membership Coordinator and assisted hundreds of tourism businesses on their sustainability journey as EA's application coach. Since 2021, Nadine manages EA’s business certifications including ECO, Climate Action and Respecting Our Culture (ROC) as well as the audit and compliance program.
+
+After completing her education in Germany, she travelled extensively around Australia, where she developed a passion for the country’s incredible nature and its rich cultural heritage. Nadine’s academic background in tourism management with a major in international sustainable tourism previously took her to London, where she worked for a leading tour operator, before returning to Australia permanently.
+
+Nadine feels inspired by creating positive change together with ecotourism businesses and witnessing the impact they have on the environment and local communities. She truly believes that everyone can make a difference no matter how small the actions.</p>
+      <h3>Lina Cronin - Communications and Marketing Manager</h3>
+      <p>[Note: Lina currently works 3 days/week - Tuesdays, Wednesdays/Thursdays (half days) and Fridays.]
+
+Lina is a passionate advocate for tourism’s potential to be a catalyst for positive change. With experience working in both the public and private sector, as well as academia, she brings a broad understanding of the complexities of the tourism industry as well as a unique skillset particularly in the areas of communications, marketing and event management. Internationally awarded for her writing on sustainable tourism and with experience working across nine countries, Lina’s career highlights to date have been speechwriting for the Secretary General of the United Nations World Tourism Organization (UNWTO); collaborating on a book highlighting the transformative power of tourism to subsistence farmers in South East Asia; and bringing to life the stories of Australia’s best ecotourism operators through her Masters research on storytelling as a tool for changing visitor perceptions.</p>
+
+      <h3>Alyssa Sanders - Relationships Manager</h3>
+      <p>In 2019 Alyssa came from South Australia to join the Ecotourism Australia team as the Program Manager for the ECO Destination Certification program. In that role, she has grown the program, assisted a number of our destinations through their ecotourism journey and built some fantastic relationships with the regional managers who are driving ecotourism in their part of the country. In 2021 Alyssa's role grew to be Relationships Manager where it expanded to include not only our valued family of destinations but to work with a variety of our partners in growing ecotourism and the travel for good ethos.
+
+Alyssa’s passion for the tourism industry has stemmed from her travels throughout Australia and abroad. She believes that tourism has a responsibility in educating visitors on the value of the surrounding environment. Alyssa’s academic background includes topics of business marketing, tourism and event management. Alyssa has worked within local government visitor services and held a position as chair of Young ATEC in South Australia and South Queensland.
+
+When not at work, Alyssa enjoys many outdoor activities, sport, meeting new people from all corners of the globe, and practising her basic conversational Spanish skills when she gets time.</p>
+      <h3>Shea Wittig - Membership Coordinator</h3>
+      <p>Living in Australia, the UK and the Middle East has inspired Shea’s actions to reflect those of a global citizen. She is passionate about building relationships and supporting the tourism industry to move towards a more sustainable future. She believes ecotourism operators are well placed to have a lasting and positive impact on their local communities and is thrilled to be involved with such an exciting and influential industry.
+
+Shea first joined Ecotourism as an intern in the beginning of 2020 after completing a Sustainable Environment & Planning qualification. She returned at the end of 2020 as a Certification Data Entry Officer assigned to the task of uploading operators onto our new online portal before moving into the Membership Coordinator role.
+
+Contact Shea for any enquires regarding Ecotourism Australia’s certification programs, memberships or internships.</p>
+
+<h3>Shannon Scullion - Certification Coordinator</h3>
+<p>Shannon first joined Ecotourism Australia as an intern in 2018 while completing two degrees at the University of Queensland: Bachelor of International Hotel and Tourism Management and Bachelor of Arts, majoring in Geography. Since then she has recently joined the Ecotourism Australia team as a Certification Coordinator and completed a Master of Environmental Management.  She has also stayed busy volunteering for BirdLife Australia and Queensland Conservation Council, as well as undergoing a work placement with the World Wildlife Fund for academic research.
+
+Shannon's passion for the environment, conservation of the natural world and ecotourism stems from a lifetime of travel. Born in South Africa, and having travelled to over 30 countries, Shannon aims to make a difference in the way we travel and treat the planet and couldn't be happier with her position at Ecotourism Australia. In her free time, she can be found birdwatching and watching David Attenborough documentaries.</p>
+<h3>Katie Heilbronn - Communications and Marketing Coordinator</h3>
+<p>Katie Heilbronn first joined the Communications and Marketing team as an intern in April 2021 while studying a Bachelor of International Hotel and Tourism Management at the University of Queensland. Now, Katie has taken up a role as the Communications and Marketing Coordinator, aiding in curating social media content, compiling stories that celebrate members in the EcoBytes newsletter, and writing articles on member achievements.
+
+During her time at Ecotourism Australia, she has grown an appreciation for the power of storytelling to inspire travellers to engage in conscious travel and to share the creative ways businesses mitigate their environmental impact. Contact Katie if you have an interesting ecotourism, sustainability, or conservation story. </p>
+<h2>Our Board</h2>
+<h3>Dr Claire Ellis - Chair</h3>
+<p>Dr Claire Ellis is the current Chair of Ecotourism Australia. She has worked for much of her career in tourism, enjoying its challenges and opportunities. Her varied tourism work includes being an operator (running her own business in Indonesia), working for other operators, undertaking research and working as a University lecturer, working in State Government around policy and strategy and now working as a consultant. During her time as a Director in Tourism Tasmania she oversaw a number of exciting new projects including growing the capacity of Tasmania’s tourism industry in the digital environment and the selection and development of the Three Capes Track. Claire was also Chair of the National Long Term Tourism Strategy’s Destination Management Planning Working Group. Her consultancy work now takes her across Australia, as well as overseas, allowing her to visit and enjoy many of Australia’s amazing regions.
+<br><br>
+Claire is also a Board member of Natural Resources Management Southern Tasmania; Director of Ingleton Scenery Company (Waterfalls Trail), Yorkshire, UK; and a Graduate of the Australian Institute for Company Directors.</p>
+
+<h3>Innes Larkin - Deputy Chair</h3>
+<p>Innes Larkin has been active in the outdoors from an early age, hiking and climbing in Australasia, Europe, UK, and Nepal including expeditions to Mera Peak and Ama Dablam. In 2016 Innes was jointly awarded the Australian Search and Rescue award.
+<br><br>
+A teacher with a Masters in Outdoor Education, Innes has taught in London, and QLD.  In 2006 Innes and Tracey Larkin purchased Mt Barney Lodge which holds Advanced Ecotourism Accreditation with Ecotourism Australia.
+<br><br>
+From 2010 to 2012 Innes spearheaded a campaign to “Keep the Scenic Rim Scenic”. This was in response to Coal and Coal Seam Gas mining moving into the Ecotourism hotspot. A legacy of this campaign is that the Scenic Rim is now Coal and Gas Free.
+<br><br>
+Twice a member of the Community Advisory Committee for the Gondwanan Rainforests of Australia World Heritage property, as well as Deputy Chair of Ecotourism Australia and additionally the chair of the Executive and Finance and Conference committees. Innes is also Chair of the Global Eco Conference committee helping to facilitate the 2019 and 2020 Global Eco conferences.
+<br><br>
+Innes is passionate about sustainable tourism and the lasting legacies it can bring to a region. </p>
+
+<h3>Alysia Brandenburg</h3>
+<p>Alysia has been an active Director of Ecotourism Australia for the past two years and has served on the Policy and Advocacy and Conference and Awards committees and chaired the Communications and Marketing Sub-committee and Destinations Working Group.
+<br><br>
+As the Australian tourism industry faces unprecedented challenges, Alysia is keen to continue to work hard with fellow Ecotourism Australia Board Directors and staff to ensure the significance of the sector and the voice of nature-based and eco tourism is heard and recognised.
+<br><br>
+Alysia is a strong advocate for EA’s benchmark accreditation programs and industry standards and champions the importance of maintaining quality standards, compliance and skills training.   Alysia will work to strengthen the products and services that Ecotourism Australia provides to its members as we move further into digital engagement and delivery.
+<br><br>
+She demonstrates strong leadership attributes in governance, financial accountability, strategic planning and membership value.   Her extensive experience in emergency response and recovery has been at the forefront this year in regard to the national fire and COVID19 crises.
+<br><br>
+Alysia holds a Master in Tourism-Monash, Certificate in Community Engagement (Iapt2) and has a passion for engaging with the tourism sector in a collaborate manner, focused on sustainable destination planning, accessibility and visitor experience development.
+<br><br>
+She has a personal commitment to the promotion of the health benefits of engaging with nature and is dedicated to experience development that connects visitors with people, place and storytelling in a sustainable manner.
+<br><br>
+Alysia enjoyed after 19-year career at Parks Victoria, culminating in the senior position of Tourism Manager, where she was the architect of award-winning initiatives and led tour operator reforms to reduce red tape, promote resilience and create enabling environments for operators.
+<br><br>
+Alysia has worked with regional operators and government organisations on planning, feasibility and product development as well as with VTIC on COVID19 industry programs.
+<br><br>
+Alysia served on numerous tourism organisations, including being Chair of Yarra Valley Campaign Committee and is currently a Regional Tourism Ambassador with ART.</p>
+
+<h3>Dr Noreen Breakey</h3>
+<p>Noreen has over 30 years of tourism experience and is passionate about ecotourism. She began her career in the first Australian tourism degree, before working in accommodation with family businesses and international hotel properties. These amazing nature-based offerings were around protected areas: Uluru-Kata Tjuta, Daintree, Kosciuszko, and Noosa. Noreen’s growing belief that destinations could, and should, be better managed to protect our environment saw her complete her PhD on tourism destination development, while working at Tourism Events Queensland as the Corporate Planning Analyst, co-developing the first Destination Management Plans for all Queensland regions.
+<br><br>
+Noreen is a tourism lecturer/researcher at the University of Queensland (UQ), where she pursues her ecotourism research, including environmental ethics, ecotourism motivations, and tourism in World Heritage Areas. Noreen is increasingly recognised as an ecotourism expert, she is called on to speak publicly, and her research informs protected area management. Noreen has received education awards for ‘build bridges’ between UQ and tourism stakeholders, including TRIP, which has provided student teams for projects proposed by regional destinations. There are opportunities to leverage UQ resources, for industry to direct research to the issues that really matter, and for useful research to be presented to members.
+<br><br>
+Noreen has long been an active member of Ecotourism Australia (EA), regularly attending the conference and presenting her relevant research. She was on the Policy and Advocacy Committee (2011-2014) and was invited to re-join again in 2019, before being elected to the Board later that year. Noreen is also the coordinator for the MOU between EA and UQ.
+<br><br>
+Building on her combination of industry experience and academic expertise, Noreen is committed to research that addresses the issues faced when trying to balance the needs of ecotourism operators, government, local people, visitors, and the natural environment.</p>
+
+<h3>Nat Burke</h3>
+<p>Nat Burke has more than 18 years’ experience in program management, policy advocacy, and applied research in the fields of social development, conservation, education, and public diplomacy.
+<br><br>
+Nat is Senior Manager, Social Development at WWF-Australia. He leads a team of conservationists working with Indigenous and local communities in Australia and across Asia and the Pacific to achieve conservation outcomes while supporting sustainable and inclusive development.
+<br><br>
+Nat is a strong advocate for community-led approaches that put local people and their social, cultural, and economic aspirations at the heart of conservation and sustainable natural resource management.
+<br><br>
+From his early career working with the Indonesian Ministry of Culture and Tourism, to designing and leading inclusive conservation and sustainable development programs in Nepal, Solomon Islands, and bushfire-affected communities in Australia, Nat has seen firsthand how sustainable nature-based tourism can be a powerful force for environmental, social, and economic change. Nat believes that high-integrity ecotourism is one of the best ways to demonstrate that we don’t have to choose between a healthy environment and a strong economy.</p>
+
+<h3>Michael Collins</h3>
+<p>Michael is the Principal of ‘CF Global', a Perth based industry consultancy with a strong focus on Regional Tourism Projects, representative/destination marketing, sourcing, and procurement.
+<br><br>
+Over the past 30 years, Michael has carved out a career in hospitality and tourism, starting with senior roles with national hotel group Austotel and then the Swan Brewery. He then took on the lease of the Historic Castle Hotel in York WA, which he successfully ran with his wife Jonine for almost 10 years.
+<br><br>
+He then went on to spend time with International Hotel Chain Best Western as their regional manager for WA/SA/NT and in more recent times with the Caravan Industry Association WA as their Manager membership and business improvement.
+<br><br>
+Before starting CF Global in 2013, Michael was the Group General Manager for Western Australia’s Hospitality Group, overseeing their operational assets throughout WA including the pre-opening the Boutique 5 star ‘Terrace Hotel’ and operation of the multi-award-winning Karijini Eco Retreat. Located in the magnificent Karijini National Park, the Karijini Eco Retreat was an early pioneer of the glamping phenomenon and has been widely recognized as an innovative and progressive leader in Environmental and Indigenous tourism in remote WA since opening in 2006
+<br><br>
+Over the years Michael has been an avid volunteer and contributor to sporting and service clubs along with the wider tourism industry, serving on a number of boards and panels including Coeliac WA, Coeliac Australia, Australian Hotels Association, Australia’s North West Tourism, Australian Tourism Export Council, Backpack WA and FACET (Forum Advocating Cultural and Environmental Tourism).
+<br><br>
+Michael is also a current board director of Ecotourism Australia, serving as member of the Executive, Finance & Audit and Governance sub committees. Michael is also judge for the Clubs WA awards for excellence and Vice President and Treasurer of SKAL International Perth.</p>
+
+<h3>Caroline Densley</h3>
+<p>Caroline Densley is an owner and Director of Diverse Travel Australia a ROC Accredited inbound tour operator that specialises in wildlife, nature & Aboriginal cultural experiences across Australia. For over 22 years Caroline has been actively involved in the inbound tourism sector and is a passionate advocate for responsible and sustainable tourism across Australia.
+<br><br>
+For 16 years Caroline was a committee member on South Australia’s branch committee of the Australian Tourism Export Council (ATEC), the peak tourism export industry body that represents the interests of over 1,000 tourism export companies throughout Australia. Over the past two decades she has served on several tourism industry committees, a Nature Based Tourism Taskforce in South Australia and several National committees including one that developed the highly successful national Indigenous Tourism Champions Programme (ITCP), that supported Aboriginal Tourism development across Australia. Caroline was a mentor to several Aboriginal owned and operated business throughout the program’s duration.
+<br><br>
+Through her mentoring roles Caroline has established ongoing strong relationships with the Aboriginal owned & operated businesses across Australia and she continues to educate the wider inbound tourism industry on the value of including Aboriginal experiences into client itineraries.
+<br><br>
+As an Australian destination specialist Caroline has an intimate knowledge of remote and regional Australia and understands the strength and value of Ecotourism accredited members to Australia’s story. Caroline is a founding member of the Koala Clancy Foundation a not for profit incorporated association that supports the wild koalas of the Western Plains of Victoria. The Koala Clancy Foundation is inspiring travellers and local communities to help ensure a future for wild koalas through enhancement and protection of their natural habitat.
+<br><br>
+Having spoken with some of the current Ecotourism Australia Board Members Caroline feels she has experience and skills that will add value to the Board through her extensive experience in the tourism trade distribution, product development and marketing. In 2019 Caroline was awarded the Australian Tourism Export Council’s (ATEC) prestigious Captain Trevor Haworth Outstanding Contribution by an Individual to the Tourism Export Industry award.</p>
+
+<h3>Wendy Hills</h3>
+<p>For over 25 years, Wendy has worked in the Australian tourism industry in various marketing and development roles, including destination, product and industry development with a proven expertise in sustainable indigenous tourism and the importance that this sector plays in identifying Australia's cultural strengths and 'point of difference', in a very competitive global marketplace.
+<br><br>
+She has worked for private enterprise companies, two State Tourism Organisations, Indigenous Business Australia and Tourism Australia as the head of the Australian Experiences team, responsible for the development and marketing of Australia's 7 key experiences, including ‘Natural Australia’ and ‘Aboriginal Australia’.
+<br><br>
+Wendy joined the NSW National Parks and Wildlife Service (NPWS) in December 2011, and has managed several portfolios, including Aboriginal cultural tourism development, marketing and campaigns, nature-based tourism and partnership development, and now currently manages the Volunteer and Education Teams, responsible for program development within relevant NSW National Parks and Reserves.
+<br><br>
+Wendy is a current Director of Ecotourism Australia, and a Board member of the Booderee National Park Joint Board of Management.</p>
+
+<h3>Peter Johnson</h3>
+<p>Peter is a current member of the Ecotourism Board and Chairperson of the Certification Committee.
+<br><br>
+With his wife Kerry, he is the owner/operator of Diamond Waters Treehouse Retreat, a multi-award winning luxury eco retreat and events centre on the Mid North Coast of New South Wales. The Treehouse Retreat is currently Advance Ecotourism and Climate Action Business certified.
+<br><br>
+Peter and Kerry have been engaged with the Tourism industry since they started the exciting journey of rehabilitating their 13 acre rural property in 2004.  Peter is also a Committee Member/Risk Manager for the Slice of Haven Food and Wine Festival (13 years) and Kerry is a Board Member of the Greater Port Macquarie Tourism Association. Together, they have developed a strong and lasting passion for the Tourism industry since moving to their new home in Dunbogan NSW.
+<br><br>
+Prior to his engagement with tourism, Peter was the CEO of several private and public hospitals, large and small. It is in this capacity he honed his skills in the areas of: corporate governance; financial management; risk management; standards compliance, and in particular, performance management and benchmarking.  He has been for 27 years, and still remains, an active Assessor for the Australian Council on Healthcare Standards, the certification body for hospitals and healthcare systems. In this capacity he brings to EA, the experience of other certification systems nationally and internationally.
+<br><br>
+As a Board Member of EA he has been privileged to work through the 2019-2020 challenges of Bushfire and Covid.  In his role of Certification Committee Chairperson he has thoroughly enjoyed the opportunity to participate in the introduction of on-line certification processes and the development of future outcome based performance indicators for tourism operators.  He would very much like to continue assisting EA and its members in these important areas of development.</p>
+
+<h3>Janet Mackay</h3>
+<p>Janet Mackay is the owner and Director of TRC Tourism (TRC). TRC is a leading global tourism consultancy based in Australia and New Zealand. For over 20 years the company has engaged with businesses, governments and communities around the world to enhance peoples’ lives and the places they live through sustainable tourism, recreation and conservation planning, development and management.
+<br><br>
+Janet is an accomplished tourism professional with more than 25 years’ practical experience including substantial knowledge in all aspects of sustainable tourism destination planning and product development. She is well-known as a destination and visitor experience planning leader, as well as related infrastructure and product development. This has seen Janet working with multiple governments, agencies, stakeholders and the tourism sector to develop plans and products for a wide range of attractions, infrastructure, services and interpretation. She has worked with all level of governments to determine appropriate governance models to ensure maximum effectiveness in the delivery of sustainable tourism outcomes. She also provides mentoring and training for tourism operators and managers. Janet’s passion lies in ecotourism particularly working with indigenous communities to create and deliver new experiences that create sustainable economic, social and cultural outcomes.
+<br><br>
+Janet’s leadership in sustainable tourism is demonstrated by her award-winning planning approach toward destination planning and management. TRC offsets all its carbon emissions through the Path Zero program and is a member of the Global Sustainable Tourism Council. Under Janet’s direction, the Sustainable Development Goals are embedded into TRC’s planning process for every project.
+<br><br>
+With extensive networks at all levels of the public and private sector in all jurisdictions across Australia, New Zealand and the Pacific, and governance experience as the Director of her own company Janet is well placed to be an effective communicator and champion as  a Board member of Ecotourism Australia.</p>
+  </div>
+
+  <footer class="landingfooter">
+    <p> Eco Tourism Australia &copy;</p>
+    <a href="tsandcs.html">T's & C's&nbsp</a>
+    <a href="privacypolicy.html">Privacy Policy&nbsp</a>
+    <a href="media.html">Media & Press&nbsp</a>
+    <a href="socialmedia.html">Social Media&nbsp</a>
+    <a href="contact.html">Contact Us&nbsp</a>
+  </footer>
+
+</body>
+
+</html>

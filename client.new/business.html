@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Business Certification | Ecotourism Australia</title>
+  <link rel="stylesheet" media="screen and (min-width:1200px)" href="css.css">
+  <link rel="stylesheet" media="screen and (max-width:1199px)" href="csssmallscreen.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Ecotourism Australia">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+
+    <a href="home.html">Home</a>
+
+    <button class="dropdown-btn">About</button>
+      <div class="dropdown-container">
+        <a href="whyworkwithus.html">Why Work With Us?</a>
+        <a href="vision.html">Vision, Mission & Purpose</a>
+        <a href="history.html">History</a>
+        <a href="team.html">Team & Board</a>
+        <a href="jobs.html">Jobs & Career Opertunities</a>
+        <a href="walkthetalk.html">Walk the Talk</a>
+      </div>
+
+      <button class="dropdown-btn">What We Do</button>
+        <div class="dropdown-container">
+          <a href="certprograms.html">Certification Programs</a>
+          <a href="globalecoconference.html">Global Eco Conference</a>
+          <a href="advocacy.html">Advocacy</a>
+          <a href="industryresources.html">Industry Resources</a>
+          <a href="onsultancy.html">Consultancy</a>
+        </div>
+
+        <button class="dropdown-btn">Our Community</button>
+          <div class="dropdown-container">
+            <a href="wepartnerwith.html">We partner with...</a>
+            <a href="ourcertifiedmembers.html">Our Certified Members</a>
+            <a href="ourpartners.html">Our Partners</a>
+            <a href="oursupporters.html">Our Supporters</a>
+          </div>
+
+    <a href="news.html">News</a>
+    <a href="login.html">Member Login</a>
+    <a href="search.html">Search</a>
+    </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+  <img src="assets/img/business.jpeg" alt="Image" class="aboutimg">
+  <h1>Certification for Businesses</h1>
+  <p class="whatwedotext">Ecotourism is one of the fastest growing sectors of the
+    tourism industry worldwide. Ecotourism Australia (EA)’s
+    guidelines help businesses become ecotourism leaders
+    by ensuring the sustainability of destinations and
+    supporting local communities.
+    Following EA’s best practice standards will enable you to
+    provide a high-quality recognisable product to consumers
+    whilst increasing your sustainable development. This can
+    create cost savings, improve your organisation’s image and
+    help you establish closer connections with your local
+    tourism and protected area management organisations.</p>
+
+  <div class="whyworkwithus"
+  <!-- This has to be here for some reason -->
+    <img src="assets/img/Eco_Certified_Ecotourism_Logo.png" alt="Logo" class="certlogos">
+    <h2>ECO Tourism Certification</h2>
+      <p>Tourism in a natural area that focuses on optimal resources use,
+        leaves minimal impact on the environment and offers interesting ways
+        to learn about the environment with operators that use resources wisely,
+        contribute to conserving the environment and help local communities.</p>
+  </div>
+
+  <button class="collapsible">More Info</button>
+  <div class="content">
+    <p><h5>Eligibility:</h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. <h5>Levels:</h5>
+      Advanced Ecotourism Destination certification<br>Ecotourism Destination certification<br>
+      Nature Tourism Destination certification <h5>Criteria Covered:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Intrested? Here are the next steps:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Need more detail?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Costs:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Still not sure?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Ready?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+  </div>
+
+  <div class ="vision">
+    <img src="assets/img/ROC_Logo.png" alt="Logo" class="certlogos">
+    <h2>ROC Certification</h2>
+    <p>The Respecting Our Culture (ROC) program encourages the tourism industry
+      to operate in ways that respect and reinforce Indigenous cultural heritage
+      and the living cultures of Indigenous communities.<br>ROC certified
+      tourism operators are committed to protecting cultural authenticity and
+      integrity, developing sound business practices, environmental protection
+      and acknowledging Indigenous peoples spiritual connection to the land
+      and water.</p>
+  </div>
+  <button class="collapsible">More Info</button>
+  <div class="content">
+    <p><h5>Eligibility:</h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. <h5>Levels:</h5>
+      Advanced Ecotourism Destination certification<br>Ecotourism Destination certification<br>
+      Nature Tourism Destination certification <h5>Criteria Covered:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Intrested? Here are the next steps:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Need more detail?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Costs:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Still not sure?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Ready?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+  </div>
+
+
+  <div class ="history">
+    <img src="assets/img/Climate_Action_Certification_Logo.png" alt="Logo" class="certlogos">
+    <h2>Climate Action Certification</h2>
+    <p>Climate Action Certification is designed for all sectors of the tourism
+      industry including hotels, attractions, tours, transport, restaurants,
+      travel agents, tourism commissions and industry bodies. The Climate
+      Action Certification program is dedicated to reducing carbon emissions
+      and assuring travellers that certified products are backed by a commitment
+      to sustainable practices related to addressing climate change.</p>
+  </div>
+  <button class="collapsible">More Info</button>
+  <div class="content">
+    <p><h5>Eligibility:</h5> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. <h5>Levels:</h5>
+      Advanced Ecotourism Destination certification<br>Ecotourism Destination certification<br>
+      Nature Tourism Destination certification <h5>Criteria Covered:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Intrested? Here are the next steps:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Need more detail?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Costs:</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Still not sure?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <h5>Ready?</h5>Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+  </div>
+
+
+  <div class ="team">
+    <h2>Not what you're looking for?</h2>
+    <p>If your business doesn’t fit into any of the above categories but you’re still interested in
+      partnering with us, check out the <a href="ourcommunity.html">‘Our Community’</a> page of our website.</p>
+  </div>
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
+
+  <footer class="landingfooter">
+    <p> Eco Tourism Australia &copy;</p>
+    <a href="tsandcs.html">T's & C's&nbsp</a>
+    <a href="privacypolicy.html">Privacy Policy&nbsp</a>
+    <a href="media.html">Media & Press&nbsp</a>
+    <a href="socialmedia.html">Social Media&nbsp</a>
+    <a href="contact.html">Contact Us&nbsp</a>
+  </footer>
+
+</body>
+
+</html>

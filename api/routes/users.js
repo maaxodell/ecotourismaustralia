@@ -1,9 +1,26 @@
 var express = require('express');
 var router = express.Router();
+var jwt = require("jsonwebtoken");
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+router.post('/register', function(req, res, next) {
+  const email = req.body.email
+  const password = req.body.password
+
+  if (!email || !password) {
+      res.status(400).json({
+          error: true,
+          message: "Request incomplete - email and password required"
+      });
+      return
+  }
+
+  const secretKey = "secret key"
+  const expires_in = 60 * 60 * 24
+  const exp = Date.now() + expires_in * 1000
+  const token = jwt.sign({email, password, exp}, secretKey)
+
+  res.status(201).json({token_type: "Bearer", token, expires_in});
+
 });
 
 module.exports = router;

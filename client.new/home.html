@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Home | Ecotourism Australia</title>
+  <link rel="stylesheet" media="screen and (min-width:1200px)" href="homecss.css">
+  <link rel="stylesheet" media="screen and (max-width:1199px)" href="homecsssmallscreen.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Ecotourism Australia">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+
+    <a href="home.html">Home</a>
+
+    <button class="dropdown-btn">About</button>
+      <div class="dropdown-container">
+        <a href="whyworkwithus.html">Why Work With Us?</a>
+        <a href="vision.html">Vision, Mission & Purpose</a>
+        <a href="history.html">History</a>
+        <a href="team.html">Team & Board</a>
+        <a href="jobs.html">Jobs & Career Opertunities</a>
+        <a href="walkthetalk.html">Walk the Talk</a>
+      </div>
+
+      <button class="dropdown-btn">What We Do</button>
+        <div class="dropdown-container">
+          <a href="certprograms.html">Certification Programs</a>
+          <a href="globalecoconference.html">Global Eco Conference</a>
+          <a href="advocacy.html">Advocacy</a>
+          <a href="industryresources.html">Industry Resources</a>
+          <a href="onsultancy.html">Consultancy</a>
+        </div>
+
+        <button class="dropdown-btn">Our Community</button>
+          <div class="dropdown-container">
+            <a href="wepartnerwith.html">We partner with...</a>
+            <a href="ourcertifiedmembers.html">Our Certified Members</a>
+            <a href="ourpartners.html">Our Partners</a>
+            <a href="oursupporters.html">Our Supporters</a>
+          </div>
+
+    <a href="news.html">News</a>
+    <a href="login.html">Member Login</a>
+    <a href="search.html">Search</a>
+    </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+  <h1 class="homeh1">Lets travel for good</h1>
+
+  <div class="bodycontent">
+    <h2>Why get certified?</h2>
+    <p class="blurb"> For all certified operators, certification is recognition
+      of a high standard of operations, and is beneficial when applying for grants,
+      awards, licenses or permits.<br>Our certification schemes are
+      independently assessed and audited, ensuring a high standard for
+      quality and compliance. ECO Certification provides recognition for
+      consumers to be assured of your commitment to environmental best practice,
+      quality experience and customer service. </p>
+    <div class="circle1"><h3 class="b"><a href="business.html" class="bus">Business</a></h3></div>
+    <div class="circle3"><h3 class="d"><a href="destinations.html" class="bus">Destinations</a></h3></div>
+    <div class="circle2"><h3 class="g"><a href="guides.html" class="bus">Guides</a></h3></div>
+
+    <img class = "whyimg" src="assets/img/homeimg4.jpg" alt="Image">
+    <h3 class="heading">What is an Ecotourism Australia Certification?</h3>
+
+    <p class="whytext">ECO Certification is product-specific - this means that you will need to answer the criteria as it
+applies specifically to each of your products. This also means that you are able to apply for ECO
+Certification even if not all of your products are nature-based.  <br><br> <a href="about.html" class="whatlink">
+      Click here to find out more! </a></p>
+
+    <img class = "latestimg" src="assets/img/homeimg5.jpg" alt="Image">
+    <h3 class="latestheading">The latest news from Ecotourism Australia</h3>
+    <p class="latesttext">For the latest industry information, updates for our
+      members and general information about Eco Tourism. <br><br> <a href="news.html" class="whatlink">
+      Click here to find out more! </a></p>
+  </div>
+
+  <div class="signup">
+      <h3> Keep up with what we are doing </h3>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname">
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="lname">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+      <input type="submit" value="Submit">
+  </div>
+
+  <footer class="landingfooter">
+    <p> Eco Tourism Australia &copy;</p>
+    <a href="tsandcs.html">T's & C's&nbsp</a>
+    <a href="privacypolicy.html">Privacy Policy&nbsp</a>
+    <a href="media.html">Media & Press&nbsp</a>
+    <a href="socialmedia.html">Social Media&nbsp</a>
+    <a href="contact.html">Contact Us&nbsp</a>
+  </footer>
+
+</body>
+
+</html>

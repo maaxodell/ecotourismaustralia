@@ -1,0 +1,366 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* Nav bar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav img {
+  padding-left: 10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #dedfc8;
+  display: block;
+  transition: 0.3s;
+
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #7d7964;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: Fira Sans Condensed;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover{
+  color: #dedfc8;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding-left: 200px;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #f9f9fd;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  color: #7d7964;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.logo{
+  display:inline-block;;
+}
+
+
+body {
+  background-color: #f9f9fd;
+  margin: 0px;
+}
+
+.loginbody {
+  background-image: url("assets/img/loginimg1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Hunter;
+  margin-top: 150px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Hunter;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color:#6b84b3;
+}
+
+.aboutimg {
+  height: 400px;
+  width: 400px;
+  margin-left: 200px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.abouttext {
+  display: block;
+  font-family: Fira Sans Condensed;
+}
+
+.whyworkwithus {
+  background-color: #dedfc8;
+  font-family: Fira Sans Condensed;
+  padding: 50px 100px;
+  margin-top: 450px;
+}
+
+.vision {
+  background-color: #f9f9fd;
+  font-family: Fira Sans Condensed;
+  padding: 50px 100px;
+}
+
+.history {
+  background-color: #dedfc8;
+  font-family: Fira Sans Condensed;
+  padding: 50px 100px;
+}
+
+.team {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #f9f9fd; /*Eco ghost */
+  font-family: Fira Sans Condensed;
+}
+
+.jobs {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #dedfc8; /*Eco tana */
+  font-family: Fira Sans Condensed;
+}
+
+.walkthetalk {
+  height: 200px;
+  width: 100%;
+  padding:50px 100px;
+  background-color: #f9f9fd; /*Eco ghost */
+  font-family: Fira Sans Condensed;
+}
+
+.whatwedotext {
+  float: right;
+  display: block;
+  margin-left: 650px;
+  margin-right: 20%;
+  margin-top: -250px;
+  font-family: Fira Sans Condensed;
+}
+
+.loginbox {
+  width: 300px;
+  height:400px;
+  margin: auto;
+  background-color: #f9f9fd;
+  opacity: 0.9;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  font-family: Fira Sans Condensed;
+  padding:20px;
+  text-align: center;
+}
+
+.searchbox {
+  width: 700px;
+  height:300px;
+  margin: auto;
+  background-color: #f9f9fd;
+  opacity: 0.9;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  font-family: Fira Sans Condensed;
+  padding:20px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id=search] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #dedfc8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 30%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #c6d0d8;
+}
+
+input[type=submit]:active {
+  background-color: #a4b4d0;
+}
+
+.certlogos {
+  width: 220px;
+  height:100px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.rocimg {
+  height: 200px;
+  width: 450px;
+  float: left;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.rocblurb {
+  font-family: Fira Sans Condensed;
+  width:90%;
+}
+
+.rocinfo {
+  height: 950px;
+  width: 100%;
+  margin-top: 350px;
+  padding:50px 100px;
+  background-color: #dedfc8; /*Eco tana */
+  font-family: Fira Sans Condensed;
+}
+
+
+.collapsible {
+  background-color: #a4b4d0;
+  color: #f9f9fd;
+  cursor: pointer;
+  padding: 18px;
+  padding-left: 100px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  font-family: Fira Sans Condensed;
+  float: left;
+}
+
+.active, .collapsible:hover {
+  background-color: #c6d0d8;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  width: 47.5%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f9f9fd;
+  margin-left: 240px;
+  font-family: Fira Sans Condensed;
+}
+
+h5 {
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+}
+
+
+footer {
+  height:80px;
+  width:100%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  font-family: Fira Sans Condensed;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: Black;
+}
+
+footer a:hover {
+  color: #6b84b3;
+}

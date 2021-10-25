@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Vision, Mission & Purpose | Ecotourism Australia</title>
+  <link rel="stylesheet" media="screen and (min-width:1200px)" href="css.css">
+  <link rel="stylesheet" media="screen and (max-width:1199px)" href="csssmallscreen.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Ecotourism Australia">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+
+    <a href="home.html">Home</a>
+
+    <button class="dropdown-btn">About</button>
+      <div class="dropdown-container">
+        <a href="whyworkwithus.html">Why Work With Us?</a>
+        <a href="vision.htm">Vision, Mission & Purpose</a>
+        <a href="history.html">History</a>
+        <a href="team.html">Team & Board</a>
+        <a href="jobs.html">Jobs & Career Opertunities</a>
+        <a href="walkthetalk.html">Walk the Talk</a>
+      </div>
+
+      <button class="dropdown-btn">What We Do</button>
+        <div class="dropdown-container">
+          <a href="certprograms.html">Certification Programs</a>
+          <a href="globalecoconference.html">Global Eco Conference</a>
+          <a href="advocacy.html">Advocacy</a>
+          <a href="industryresources.html">Industry Resources</a>
+          <a href="onsultancy.html">Consultancy</a>
+        </div>
+
+        <button class="dropdown-btn">Our Community</button>
+          <div class="dropdown-container">
+            <a href="wepartnerwith.html">We partner with...</a>
+            <a href="ourcertifiedmembers.html">Our Certified Members</a>
+            <a href="ourpartners.html">Our Partners</a>
+            <a href="oursupporters.html">Our Supporters</a>
+          </div>
+
+    <a href="news.html">News</a>
+    <a href="login.html">Member Login</a>
+    <a href="search.html">Search</a>
+    </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+  <img src="assets/img/destinations.jpeg" alt="Image" class="aboutimg">
+  <h1>Vision, Mission & Purpose</h1>
+  <p class="whatwedotext">Our purpose is to pave the way to help create extraordinary
+    opportunities for destinations and tourism operators to make the world a better
+    place environmentally, socially and culturally so they thrive and achieve
+    ’travel for good’.<br><br>Take the trip. Experience the world. The man-made and nature-made. See, smell, touch, taste, feel, listen. Nature, culture and communities are whispering to you through your senses all the time you’re wrapped up in them. They’re saying kindly... “Love us but don’t love us to death. We’re fragile just like you.” Step into their world. Be gentle. Be respectful. Let them unconditionally share their magical awe - both big and small. They change minds, opinions and perceptions, all which create memories that live forever. Go home enriched with the sense of spirit they’ve gifted you. Share those gifts with everyone you know. Let them ripple out to break old holiday habits and create new ones. Let’s travel for good.</p>
+
+  <div class="whyworkwithus">
+    <h2>Values</h2>
+      <p>We’re future-focussed custodians for eco and nature based tourism.
+<br>We’re changeologists to inspire new ways to travel for good.
+<br>We’re tribal connectors of ideas, operators, destinations and travellers.
+<br>We’re earth carers to ensure everyone can enjoy eco and nature based experiences. we’re thought leaders to show inspiration, opportunities and guidance.
+<br>We’re bold conversationalists so our message is loud and heard for positive change.
+<br>we’re knowledge bankers who share all things important about eco and nature based tourism.
+<br>We’re hero supporters of our members and their eco and nature based tourism visions.
+<br>We’re feel good promoters of our members’ amazing experiences and achievements.
+<br>We’re next gen thinkers sharing what’s ahead in the future of travel for good.
+<br>We’re opportunity hunters that grow our business plus our members’ businesses, organisations and destinations too.
+</p>
+  </div>
+
+  <footer class="landingfooter">
+    <p> Eco Tourism Australia &copy;</p>
+    <a href="tsandcs.html">T's & C's&nbsp</a>
+    <a href="privacypolicy.html">Privacy Policy&nbsp</a>
+    <a href="media.html">Media & Press&nbsp</a>
+    <a href="socialmedia.html">Social Media&nbsp</a>
+    <a href="contact.html">Contact Us&nbsp</a>
+  </footer>
+
+</body>
+
+</html>

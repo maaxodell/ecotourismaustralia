@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Our Partners | Ecotourism Australia</title>
+  <link rel="stylesheet" media="screen and (min-width:1200px)" href="css.css">
+  <link rel="stylesheet" media="screen and (max-width:1199px)" href="csssmallscreen.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Ecotourism Australia">
+  <link rel="icon" href="assets/img/favicon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <div id="mySidenav" class="sidenav">
+    <img class="logo" src="assets/img/logo.png" alt="logo">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+
+    <a href="home.html">Home</a>
+
+    <button class="dropdown-btn">About</button>
+      <div class="dropdown-container">
+        <a href="whyworkwithus.html">Why Work With Us?</a>
+        <a href="vision.html">Vision, Mission & Purpose</a>
+        <a href="history.html">History</a>
+        <a href="team.html">Team & Board</a>
+        <a href="jobs.html">Jobs & Career Opertunities</a>
+        <a href="walkthetalk.html">Walk the Talk</a>
+      </div>
+
+      <button class="dropdown-btn">What We Do</button>
+        <div class="dropdown-container">
+          <a href="certprograms.html">Certification Programs</a>
+          <a href="globalecoconference.html">Global Eco Conference</a>
+          <a href="advocacy.html">Advocacy</a>
+          <a href="industryresources.html">Industry Resources</a>
+          <a href="onsultancy.html">Consultancy</a>
+        </div>
+
+        <button class="dropdown-btn">Our Community</button>
+          <div class="dropdown-container">
+            <a href="wepartnerwith.html">We partner with...</a>
+            <a href="ourcertifiedmembers.html">Our Certified Members</a>
+            <a href="ourpartners.html">Our Partners</a>
+            <a href="oursupporters.html">Our Supporters</a>
+          </div>
+
+    <a href="news.html">News</a>
+    <a href="login.html">Member Login</a>
+    <a href="search.html">Search</a>
+    </div>
+
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+  <img src="assets/img/destinations.jpeg" alt="Image" class="aboutimg">
+  <h1>Our Partners</h1>
+  <p class="whatwedotext">The partners of Ecotourism Australia.</p>
+
+  <div class="whyworkwithus">
+    <h2>Our partners:</h2>
+      <p><h3>Global Sustainable Tourism Council (GSTC)
+www.gstcouncil.org<br>
+The Global Sustainable Tourism Council serves as the international body for establishing and managing standards for sustainable tourism.
+Our ECO Certification standard is GSTC-Recognized. This means that GSTC has verified that our standard aligns with the GSTC Criteria for sustainable tourism and is administered by a standard owner that meets GSTC requirements.
+<br>
+<h3>UNESCO</h3>
+en.unesco.org<br>
+The United Nations Educational, Scientific and Cultural Organization (UNESCO) World Heritage Centre and Ecotourism Australia partner to maintain the protection, conservation and presentation of natural and mixed World Heritage sites.
+Ecotourism Australia also advises the World Heritage Centre on private sector tourism development challenges and provides advice on the development of specific activities for financial assistance, mentoring and technical expertise to World Heritage properties.
+ <br>
+
+<h3>World Tourism Organization (UNWTO)</h3>
+www2.unwto.org<br>
+The World Tourism Organization (UNWTO) is the United Nations agency responsible for the promotion of responsible, sustainable and universally accessible tourism.
+As the leading international organization in the field of tourism, UNWTO promotes tourism as a driver of economic growth, inclusive development and environmental sustainability and offers leadership and support to the sector in advancing knowledge and tourism policies worldwide.
+<br>
+<h3>Conservation Volunteers Australia</h3>
+www.conservationvolunteers.com.au<br>
+Conservation Volunteers Australia (CVA) has partnered with individuals, businesses and governments in the conservation of our unique environment since 1982. CVA is also currently responsible for completing audits for Ecotourism Australia's certified tourism operators.
+<br>
+<h3>Taiwan Ecotourism Association</h3>
+www.ecotour.org.tw<br>
+Ecotourism Australia and the Taiwan Ecotourism Association's partnership aims to grow and enhance the level of best practice sustainable tourism in Taiwan and Australia, exploring opportunities to promote ecotourism, sustainable tourism and geotourism, as well as exploring other co-operative projects.
+<br><h3>Department of Biodiversity, Conservation & Attractions Western Australia</h3>
+www.dpaw.wa.gov.au<br>
+The Parks and Wildlife Service at the Department of Biodiversity, Conservation & Attractions WA (DBCA) is a Protected Area Manager Member of Ecotourism Australia that focuses on nature conservation and the community’s enjoyment and appreciation of Western Australia’s world-class network of national and marine parks. The Department's key responsibilities include conserving biodiversity and managing the State’s national parks, marine parks and other reserves.
+<br>
+<h3>National Parks South Australia</h3>
+www.environment.sa.gov.au<br>
+National Parks South Australia encompasses more than 20% of the state and offers a wide range of experiences. South Australia boasts an extensive and comprehensive park system.
+National Parks South Australia celebrates the State’s parks for the benefits they provide to communities and the contribution they make to conservation.
+ <br>
+
+<h3>Our Planet Travel</h3>
+www.ourplanettravel.com.au<br>
+Our Planet Travel is proud to be a partner of Ecotourism Australia – Australia’s leading sustainable travel organisation. Our Planet Travel is Australia’s only magazine focused on sustainable and responsible travel. Their aim is to encourage and inspire more people to spend their tourism dollars wisely, and make better choices for our environment and local communities when on holiday. Together, our two organisations are increasing travel eco-awareness through magazine articles, social media, online marketing activities and competitions.
+<br>
+<h3>Parks Australia</h3>
+www.parksaustralia.gov.au<br>
+Parks Australia supports the Director of National Parks who has responsibility under federal environment law for six Commonwealth national parks, the Australian National Botanic Gardens and Australia's network of Commonwealth marine reserves. Ecotourism Australia's relationship with Parks Australia helps maintain strengthened ecotourism efforts by providing certifications that grant operators extended business operation licences.
+<br>
+<h3>Parks Victoria</h3>
+parkweb.vic.gov.au<br>
+Parks Victoria is committed to delivering works on the ground across Victoria’s park network to protect and enhance park values. Their primary responsibility is to ensure that parks are healthy and resilient for current and future generations.
+<br>
+<h3>Queensland Parks and Wildlife Service</h3>
+The Queensland Parks and Wildlife Service (QPWS) is a business division of the Department of Environment and Science within the Queensland Goverment. The division’s primary concern is with the management and maintenance of protected areas within Queensland, to protect and manage Queensland’s parks, forests and the Great Barrier Reef for current and future generations. The QPWS managed areas include more than 1000 national parks, state forests, marine parks and other protected areas, and five world heritage areas.<br>
+<h3>Tasmania Parks and Wildlife Service</h3>
+www.parks.tas.gov.au<br>
+Tasmania Parks and Wildlife Service manages 19 national parks and over 800 reserves, more than 40% of the State. Their mission is to create and maintain a representative and world-renowned reserve system to conserve the State's natural and cultural heritage while providing sustainable use and economic opportunities for the Tasmanian community.
+<br>
+<h3>The Great Barrier Reef Marine Park Authority</h3>
+www.gbrmpa.gov.au<br>
+The Great Barrier Reef Marine Park Authority (GBRMPA) is the Australian Government agency responsible for management of the Marine Park and encourages tourism operators to adopt high standards for protection, presentation and partnership within the park.
+<br>
+<h3>Tourism & Events Queensland</h3>
+teq.queensland.com<br>
+Tourism & Events Queensland's vision is to build a sustainable and strong tourism industry for Queensland while being a creative, innovative and solutions-driven organisation.
+
+</p>
+  </div>
+
+  <footer class="landingfooter">
+    <p> Eco Tourism Australia &copy;</p>
+    <a href="tsandcs.html">T's & C's&nbsp</a>
+    <a href="privacypolicy.html">Privacy Policy&nbsp</a>
+    <a href="media.html">Media & Press&nbsp</a>
+    <a href="socialmedia.html">Social Media&nbsp</a>
+    <a href="contact.html">Contact Us&nbsp</a>
+  </footer>
+
+</body>
+
+</html>
