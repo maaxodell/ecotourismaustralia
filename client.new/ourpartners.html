@@ -12,14 +12,14 @@
 
 <body>
   <!-- Nav bar -->
-  <div id="mySidenav" class="sidenav">
+  <div id="nav" class="navclass">
     <img class="logo" src="assets/img/logo.png" alt="logo">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
+    <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&times</a>
 
     <a href="home.html">Home</a>
 
-    <button class="dropdown-btn">About</button>
-      <div class="dropdown-container">
+    <button class="dropdownbutton">About</button>
+      <div class="dropdowncontainer">
         <a href="whyworkwithus.html">Why Work With Us?</a>
         <a href="vision.html">Vision, Mission & Purpose</a>
         <a href="history.html">History</a>
@@ -28,8 +28,8 @@
         <a href="walkthetalk.html">Walk the Talk</a>
       </div>
 
-      <button class="dropdown-btn">What We Do</button>
-        <div class="dropdown-container">
+      <button class="dropdownbutton">What We Do</button>
+        <div class="dropdowncontainer">
           <a href="certprograms.html">Certification Programs</a>
           <a href="globalecoconference.html">Global Eco Conference</a>
           <a href="advocacy.html">Advocacy</a>
@@ -37,8 +37,8 @@
           <a href="onsultancy.html">Consultancy</a>
         </div>
 
-        <button class="dropdown-btn">Our Community</button>
-          <div class="dropdown-container">
+        <button class="dropdownbutton">Our Community</button>
+          <div class="dropdowncontainer">
             <a href="wepartnerwith.html">We partner with...</a>
             <a href="ourcertifiedmembers.html">Our Certified Members</a>
             <a href="ourpartners.html">Our Partners</a>
@@ -54,20 +54,20 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
   </div>
 
-  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp -->
+  <!-- Code from: https://www.w3schools.com/howto/howto_js_dropdown_navclass.asp -->
 
   <script>
     function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("nav").style.width = "250px";
       document.getElementById("main").style.marginLeft = "250px";
     }
 
     function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("nav").style.width = "0";
       document.getElementById("main").style.marginLeft= "0";
     }
 
-    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var dropdown = document.getElementsByClassName("dropdownbutton");
     var i;
 
     for (i = 0; i < dropdown.length; i++) {
