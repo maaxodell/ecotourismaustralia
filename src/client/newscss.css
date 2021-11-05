@@ -6,8 +6,6 @@ html, body {
   overflow-x: hidden;
 }
 
-
-
 /* Nav bar */
 .navclass {
   height: 100%;
@@ -100,12 +98,11 @@ html, body {
 }
 
 body {
-  background-image: url('assets/img/bg.jpg');
+  background-image: url('assets/img/newsbg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin: 0;
-  font-family: Fira Sans Condensed;
 }
 
 h1 {
@@ -114,13 +111,14 @@ h1 {
   color: #f9f9fd;
   font-size: 80px;
   font-family: Hunter;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .box1 {
   height: 420px;
   width: 320px;
   background-color: white;
-  opacity: 0.7;
   float: left;
   margin-left: 50px;
   padding-left: 20px;
@@ -128,15 +126,16 @@ h1 {
   padding-top: 30px;
   text-align: center;
   font-family: Fira Sans Condensed;
+  margin-bottom: 50px;
 }
 
 .box2 {
   height: 420px;
   width: 320px;
   background-color: white;
-  opacity: 0.7;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
@@ -148,7 +147,6 @@ h1 {
   height: 420px;
   width: 320px;
   background-color: white;
-  opacity: 0.7;
   float: right;
   margin-right: 50px;
   padding-left: 20px;
@@ -156,6 +154,7 @@ h1 {
   padding-top: 30px;
   text-align: center;
   font-family: Fira Sans Condensed;
+  margin-bottom: 50px;
 }
 
 .box1 a {
@@ -209,15 +208,19 @@ h2 {
 }
 
 .landingfooter {
-  margin-top: 10%;
   height:80px;
   width:100%;
   background-color: white;
   opacity: 0.9;
   padding: 20px;
   font-family: Fira Sans Condensed;
+  position:relative;
 }
+#footerspacing {
+	height:100px;
+	width:100%;
 
+}
 /*Home page*/
 
 .homeh1 {
@@ -231,96 +234,88 @@ h2 {
 
 .bodycontent {
   width: 100%;
-  height: 2100px;
+  height: 2000px;
   margin-top: 250px;
   background-color: #f9f9fd;
-  padding-top: 50px;
 }
 
 .circle1 {
   height: 300px;
   width: 300px;
+  background-color: red;
   border-radius: 50%;
   float: left;
   margin-top: 100px;
-  margin-left: 50px;
-  text-align: center;
-  background-image: url("assets/img/homeimg1.jpg");
+  margin-left: 100px;
+  background-image: url("homeimg1.jpg");
 }
 
 .circle2 {
-  height: 220px;
+  height: 300px;
   width: 300px;
+  background-color: red;
   border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
   margin-top: 100px;
-  padding-top: 80px;
-  text-align: center;
-  background-image: url("assets/img/homeimg2.jpg");
+  margin-left: 150px;
+  background-image: url("homeimg2.jpg");
 }
 
 .circle3 {
   height: 300px;
   width: 300px;
+  background-color: red;
   border-radius: 50%;
-  float: right;
-  margin-right: 50px;
+  float: left;
   margin-top: 100px;
-  text-align: center;
-  background-image: url("assets/img/homeimg3.jpg");
+  margin-left: 150px;
+  background-image: url("homeimg3.jpg");
 }
 
-.blurb {
-  font-family: Fira Sans Condensed;
-  text-align: center;
-  padding: 0px 50px;
-}
-
-.b {
-  font-size: 50px;
+.rh {
+  font-size: 30px;
   font-family: Hunter;
-  color: white;
-  margin-top: 120px;
-}
-
-.bus:hover {
-  color: white;
+  margin-left: 160px;
+  display: inline-block;
 }
 
 .d {
-  font-size: 50px;
+  font-size: 30px;
   font-family: Hunter;
-  margin-top: 120px;
+  margin-left: 280px;
+  display: inline-block;
 }
 
-.g {
-  font-size: 50px;
+.to {
+  font-size: 30px;
   font-family: Hunter;
+  margin-left: 260px;
+  display: inline-block;
 }
 
 .whyimg {
+  margin-top: 200px;
   height: 550px;
   width: 400px;
-  margin-left: -200px;
-  margin-top: 200px;
+  float: left;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 
 .heading{
-  margin-top: -400px;
+  margin-top: 400px;
   font-size: 30px;
   font-family: Hunter;
-  margin-left: 600px;
-  float: left;
-
+  margin-left: 50px;
 }
 
 .whytext {
   float: left;
-  margin-left: 600px;
+  display: block;
+  margin-left: 550px;
   margin-right: 20%;
-  font-family: Fira Sans Condensed;
   margin-top: -300px;
+  font-family: Fira Sans Condensed;
 }
 
 .whytext a {
@@ -341,7 +336,7 @@ h2 {
 }
 
 .latestheading {
-  margin-top: 300px;
+  margin-top: 600px;
   font-size: 30px;
   font-family: Hunter;
   margin-left: 100px;
@@ -352,7 +347,7 @@ h2 {
   display: block;
   margin-left: 100px;
   margin-right: 50%;
-  margin-top: -250px;
+  margin-top: -300px;
   font-family: Fira Sans Condensed;
 }
 
@@ -368,30 +363,16 @@ h2 {
 h3 {
   font-family: Hunter;
   font-size: 30px;
-  text-decoration: none;
-  color: black;
-}
-
-.bus {
-  font-family: Hunter;
-  font-size: 30px;
-  text-decoration: none;
-  color: black;
-}
-
-.bus a:hover {
-  color: #a4b4d0;
 }
 
 .signup {
   background-color: #f9f9fd;
   height: 320px;
-  width: 850px;
+  width: 800px;
   margin: 50px auto 50px;
   font-family: Fira Sans Condensed;
   padding:10px;
   text-align: center;
-  opacity: 0.9;
 }
 
 input[type=text] {

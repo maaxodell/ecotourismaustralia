@@ -6,8 +6,6 @@ html, body {
   overflow-x: hidden;
 }
 
-
-
 /* Nav bar */
 .navclass {
   height: 100%;
@@ -100,7 +98,7 @@ html, body {
 }
 
 body {
-  background-image: url('assets/img/bg.jpg');
+  background-image: url('assets/img/newsbg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -118,23 +116,22 @@ h1 {
 
 .box1 {
   height: 420px;
-  width: 320px;
+  width: 340px;
   background-color: white;
-  opacity: 0.7;
-  float: left;
-  margin-left: 50px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
   text-align: center;
   font-family: Fira Sans Condensed;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box2 {
   height: 420px;
-  width: 320px;
+  width: 340px;
   background-color: white;
-  opacity: 0.7;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -142,20 +139,21 @@ h1 {
   padding-top: 30px;
   text-align: center;
   font-family: Fira Sans Condensed;
+  margin-bottom: 50px;
 }
 
 .box3 {
   height: 420px;
-  width: 320px;
+  width: 340px;
   background-color: white;
-  opacity: 0.7;
-  float: right;
-  margin-right: 50px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
   text-align: center;
   font-family: Fira Sans Condensed;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box1 a {
@@ -231,57 +229,58 @@ h2 {
 
 .bodycontent {
   width: 100%;
-  height: 2100px;
+  height: 3200px;
   margin-top: 250px;
   background-color: #f9f9fd;
   padding-top: 50px;
 }
 
 .circle1 {
-  height: 300px;
+  height: 230px;
   width: 300px;
   border-radius: 50%;
-  float: left;
-  margin-top: 100px;
-  margin-left: 50px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-image: url("assets/img/homeimg1.jpg");
+  margin-top: 100px;
 }
 
 .circle2 {
-  height: 220px;
+  height: 230px;
   width: 300px;
   border-radius: 50%;
+  padding-top: 70px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  padding-top: 80px;
   text-align: center;
   background-image: url("assets/img/homeimg2.jpg");
+  margin-top: 100px;
 }
 
 .circle3 {
-  height: 300px;
+  height: 230px;
   width: 300px;
   border-radius: 50%;
-  float: right;
-  margin-right: 50px;
-  margin-top: 100px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-image: url("assets/img/homeimg3.jpg");
+  margin-top: 100px;
 }
 
 .blurb {
   font-family: Fira Sans Condensed;
   text-align: center;
-  padding: 0px 50px;
+  padding: 0px 20px;
 }
 
 .b {
   font-size: 50px;
   font-family: Hunter;
   color: white;
-  margin-top: 120px;
 }
 
 .bus:hover {
@@ -291,7 +290,6 @@ h2 {
 .d {
   font-size: 50px;
   font-family: Hunter;
-  margin-top: 120px;
 }
 
 .g {
@@ -300,27 +298,26 @@ h2 {
 }
 
 .whyimg {
-  height: 550px;
-  width: 400px;
-  margin-left: -200px;
-  margin-top: 200px;
+  height: 500px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 100px;
 }
 
 .heading{
-  margin-top: -400px;
   font-size: 30px;
   font-family: Hunter;
-  margin-left: 600px;
-  float: left;
-
+  text-align: center;
 }
 
 .whytext {
-  float: left;
-  margin-left: 600px;
-  margin-right: 20%;
+  display: block;
   font-family: Fira Sans Condensed;
-  margin-top: -300px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
 }
 
 .whytext a {
@@ -333,27 +330,26 @@ h2 {
 }
 
 .latestimg {
+  height: 500px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   margin-top: 100px;
-  height: 550px;
-  width: 400px;
-  float: right;
-  margin-right: 100px;
 }
 
 .latestheading {
-  margin-top: 300px;
   font-size: 30px;
   font-family: Hunter;
-  margin-left: 100px;
+  text-align: center;
 }
 
 .latesttext {
-  float: left;
   display: block;
-  margin-left: 100px;
-  margin-right: 50%;
-  margin-top: -250px;
   font-family: Fira Sans Condensed;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
 }
 
 .latesttext a {
@@ -385,33 +381,37 @@ h3 {
 
 .signup {
   background-color: #f9f9fd;
-  height: 320px;
-  width: 850px;
-  margin: 50px auto 50px;
+  height: 570px;
+  width: 100%;
   font-family: Fira Sans Condensed;
-  padding:10px;
   text-align: center;
-  opacity: 0.9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 20px;
 }
 
 input[type=text] {
-  width: 40%;
+  width: 70%;
   padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
+  display: block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 input[id=email] {
-  width: 90%;
+  width: 70%;
   padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
+  display: block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 input[type=submit] {
